@@ -1,0 +1,33 @@
+﻿@model examenEFCrudMVC2.ViewModel.EmpleadoVM
+
+@{
+    ViewData["Title"] = "Editar Empleado";
+}
+
+
+<div class="m-2">
+    <form asp-action="Editar" method="post">
+        <input type="hidden" asp-for="EmpleadoModelReference.IdEmpleado"/>
+        <input type="hidden" asp-for="EmpleadoModelReference.Activo"/>
+        <div>
+            <h2>Editar Empleado</h2>
+        </div>
+        <div>
+            <label>Nombre Empleado: </label>
+            <input asp-for="EmpleadoModelReference.NombreEmpleado" required />
+        </div>
+        <div>
+            <label>Departamento: </label>
+            <select asp-for="EmpleadoModelReference.IdDepartamento"
+                    asp-items="@(new SelectList(Model.ListaDepartamentos, "IdDepartamento", "NombreDepartamento"))" required>
+                <option value="">--Selecciona un Departamento</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-outline-secondary">
+                Editar
+            </button>
+            <a asp-action="Index" class="btn btn-outline-primary">Regresar</a>
+        </div>
+    </form>
+</div>

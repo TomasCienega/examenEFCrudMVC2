@@ -1,0 +1,109 @@
+﻿@model examenEFCrudMVC2.ViewModel.EmpleadoVM
+
+@{
+    ViewData["Title"]= "Gestion de Empleados";
+}
+
+<div class="container">
+    <div class="m-2">
+        <form asp-action="Guardar" method="post">
+            <div>
+                <h2>Input Empleado</h2>
+            </div>
+            <div class="mb-2">
+                <label>Nombre Empleado: </label>
+                <input asp-for="EmpleadoModelReference.NombreEmpleado" required/>
+            </div>
+            <div class="mb-2">
+                <label>Departamento: </label>
+                <select asp-for="EmpleadoModelReference.IdDepartamento"
+                        asp-items="@(new SelectList(Model.ListaDepartamentos, "IdDepartamento", "NombreDepartamento"))" required>
+                        <option value="">--Selecciona un Departamento</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-outline-secondary">
+                    Guardar
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="m-2 mb-3">
+        <div>
+            <h2>Filtro por Departamento</h2>
+        </div>
+        <div>
+            <select onchange="location.href='?idDep=' + this.value">
+                <option value="0">--Ver Todo--</option>
+                @foreach (var dep in Model.ListaDepartamentos)
+                {
+                    <option value="@dep.IdDepartamento" selected="@(dep.IdDepartamento == ViewBag.IdSeleccionado)">
+                        @dep.NombreDepartamento
+                    </option>
+                }
+            </select>
+            <a asp-action="Index" class="btn btn-outline-info">Limpiar</a>
+        </div>
+    </div>
+
+    <div class="m-2">
+        <table class="table">
+            <thead class="table-dark">
+                <tr>
+                    <th>Id Empleado</th>
+                    <th>Nombre Empleado</th>
+                    <th>Departamento</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.ListaEmpleados == null || !Model.ListaEmpleados.Any())
+                {
+                    <tr>
+                        <td>No se encontro Empleado con esas especificaciones</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var emp in Model.ListaEmpleados)
+                    {
+                        <tr>
+                            <td>@emp.IdEmpleado</td>
+                            <td>@emp.NombreEmpleado</td>
+                            <td>@emp.IdDepartamentoNavigation.NombreDepartamento</td>
+                            <td>
+                                <div class="d-flex gap-2 ">
+                                    <form asp-action="Estado" method="post">
+                                        <input type="hidden" name="idEmp" value="@emp.IdEmpleado" />
+                                        <input type="hidden" name="idDep" value="@ViewBag.IdSeleccionado" />
+                                        <button type="submit" class="btn @(emp.Activo == true ? "btn-outline-warning":"btn-outline-info")">
+                                            @if(emp.Activo == true)
+                                            {
+                                                <text>Desactivar</text>
+                                            }
+                                            else
+                                            {
+                                                <text>Activar</text>
+                                            }
+                                        </button>
+                                    </form>
+                                    <a asp-action="Editar" asp-route-idEmp="@emp.IdEmpleado" class="btn btn-outline-primary">Editar</a>
+                                    <form asp-action="Eliminar" method="post" onsubmit="return confirm('¿Seguro que deseas eliminar a @emp.NombreEmpleado?');">
+                                        <input type="hidden" name="idEmp" value="@emp.IdEmpleado"/>
+                                        <button type="submit" class="btn btn-outline-danger">
+                                            Eliminar
+                                        </button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>    
+    </div>
+</div>

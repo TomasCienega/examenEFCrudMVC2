@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E85EF5B-F0E9-49A4-800A-FB3599181C77}|examenEFCrudMVC2\\examenEFCrudMVC2.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\examenefcrudmvc2\\examenefcrudmvc2\\examenefcrudmvc2\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E85EF5B-F0E9-49A4-800A-FB3599181C77}|examenEFCrudMVC2\\examenEFCrudMVC2.csproj|solutionrelative:examenefcrudmvc2\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E85EF5B-F0E9-49A4-800A-FB3599181C77}|examenEFCrudMVC2\\examenEFCrudMVC2.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\examenefcrudmvc2\\examenefcrudmvc2\\examenefcrudmvc2\\views\\empleado\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E85EF5B-F0E9-49A4-800A-FB3599181C77}|examenEFCrudMVC2\\examenEFCrudMVC2.csproj|solutionrelative:examenefcrudmvc2\\views\\empleado\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E85EF5B-F0E9-49A4-800A-FB3599181C77}|examenEFCrudMVC2\\examenEFCrudMVC2.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\examenefcrudmvc2\\examenefcrudmvc2\\examenefcrudmvc2\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E85EF5B-F0E9-49A4-800A-FB3599181C77}|examenEFCrudMVC2\\examenEFCrudMVC2.csproj|solutionrelative:examenefcrudmvc2\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E85EF5B-F0E9-49A4-800A-FB3599181C77}|examenEFCrudMVC2\\examenEFCrudMVC2.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\examenefcrudmvc2\\examenefcrudmvc2\\examenefcrudmvc2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E85EF5B-F0E9-49A4-800A-FB3599181C77}|examenEFCrudMVC2\\examenEFCrudMVC2.csproj|solutionrelative:examenefcrudmvc2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E85EF5B-F0E9-49A4-800A-FB3599181C77}|examenEFCrudMVC2\\examenEFCrudMVC2.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\examenefcrudmvc2\\examenefcrudmvc2\\examenefcrudmvc2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E85EF5B-F0E9-49A4-800A-FB3599181C77}|examenEFCrudMVC2\\examenEFCrudMVC2.csproj|solutionrelative:examenefcrudmvc2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\examenEFCrudMVC2\\Context\\examenEFCrudMVC2Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:examenEFCrudMVC2\\Context\\examenEFCrudMVC2Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\examenEFCrudMVC2\\Views\\Empleado\\Editar.cshtml",
+              "RelativeDocumentMoniker": "examenEFCrudMVC2\\Views\\Empleado\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\examenEFCrudMVC2\\Views\\Empleado\\Editar.cshtml",
+              "RelativeToolTip": "examenEFCrudMVC2\\Views\\Empleado\\Editar.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T19:00:59.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\examenEFCrudMVC2\\Views\\Empleado\\Index.cshtml",
+              "RelativeDocumentMoniker": "examenEFCrudMVC2\\Views\\Empleado\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\examenEFCrudMVC2\\Views\\Empleado\\Index.cshtml",
+              "RelativeToolTip": "examenEFCrudMVC2\\Views\\Empleado\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAiwAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-04T18:00:19.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\examenEFCrudMVC2\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "examenEFCrudMVC2\\Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\examenEFCrudMVC2\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "examenEFCrudMVC2\\Controllers\\EmpleadoController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowD8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T17:19:36.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\examenEFCrudMVC2\\appsettings.json",
+              "RelativeDocumentMoniker": "examenEFCrudMVC2\\appsettings.json",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\examenEFCrudMVC2\\appsettings.json",
+              "RelativeToolTip": "examenEFCrudMVC2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-04T17:12:23.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\examenEFCrudMVC2\\Program.cs",
+              "RelativeDocumentMoniker": "examenEFCrudMVC2\\Program.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\examenEFCrudMVC2\\Program.cs",
+              "RelativeToolTip": "examenEFCrudMVC2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T17:12:21.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "examenEFCrudMVC2Context.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\examenEFCrudMVC2\\Context\\examenEFCrudMVC2Context.cs",
+              "RelativeDocumentMoniker": "examenEFCrudMVC2\\Context\\examenEFCrudMVC2Context.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\examenEFCrudMVC2\\examenEFCrudMVC2\\examenEFCrudMVC2\\Context\\examenEFCrudMVC2Context.cs",
+              "RelativeToolTip": "examenEFCrudMVC2\\Context\\examenEFCrudMVC2Context.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T17:12:00.59Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
